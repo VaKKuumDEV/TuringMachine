@@ -1,0 +1,47 @@
+{
+  "Alphabet": [
+    "#",
+    "0",
+    "1"
+  ],
+  "States": [
+    "1",
+    "2"
+  ],
+  "Program": [
+    [
+      {
+        "Replacement": "#",
+        "Action": 2,
+        "NextState": 1
+      },
+      {
+        "Replacement": "0",
+        "Action": 0,
+        "NextState": 2
+      },
+      {
+        "Replacement": "1",
+        "Action": 0,
+        "NextState": 2
+      }
+    ],
+    [
+      {
+        "Replacement": "#",
+        "Action": 0,
+        "NextState": 0
+      },
+      {
+        "Replacement": "1",
+        "Action": 2,
+        "NextState": 2
+      },
+      {
+        "Replacement": "0",
+        "Action": 2,
+        "NextState": 2
+      }
+    ]
+  ]
+}
